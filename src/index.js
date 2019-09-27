@@ -8,6 +8,7 @@ import Main1 from './components/Main1';
 import Main2 from './components/Main2'; 
 import Main3 from './components/Main3'; 
 import Main4 from './components/Main4'; 
+import Main5 from './components/Main5'; 
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import { Row, Col } from 'react-bootstrap';
 
@@ -20,8 +21,8 @@ ReactDOM.render(
                 <Link className="link" to="/main2">Main2</Link>
                 <Link className="link" to="/main3">Main3</Link>
                 <Link className="link" to="/main4">Main4</Link>
-                {/* <Link className="link" to="/main5">Main5</Link>
-                <Link className="link" to="/main6">Main6</Link> */}
+                <Link className="link" to="/main5">Main5</Link>
+                {/* <Link className="link" to="/main6">Main6</Link> */}
             </Col>
         </Row>
         <Switch>
@@ -29,8 +30,8 @@ ReactDOM.render(
             <Route path="/main2" component={Main2} />
             <Route path="/main3" component={Main3} />
             <Route path="/main4" component={Main4} />
-            {/* <Route path="/main5" component={Main5} />
-            <Route path="/main6" component={Main6} /> */}
+            <Route path="/main5" component={Main5} />
+            {/* <Route path="/main6" component={Main6} /> */}
 
         </Switch>
     </Router>,

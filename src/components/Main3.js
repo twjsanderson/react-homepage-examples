@@ -6,7 +6,7 @@ class Main3 extends Component {
   render() {
     return (
       <section>
-        <Container fluid style={{ backgroundImage: `url(${mountains})`, height: 1200 }}>
+        <Container fluid style={{ backgroundImage: `url(${mountains})`, height: '100%' }}>
             <Jumbotron style={{ backgroundColor: 'transparent' }}>
                 <h1 className="display-4">Hello, world 3!</h1>
                 <p className="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
