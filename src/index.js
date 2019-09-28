@@ -27,7 +27,7 @@ ReactDOM.render(
                 <Link className="link" to="/main4">Main4</Link>
                 <Link className="link" to="/main5">Main5</Link>
                 <Link className="link" to="/main6">Main6</Link>
-                <Link className="link" to="/main6">Main7</Link>
+                <Link className="link" to="/main7">Main7</Link>
                 {/* <Link className="link" to="/main8">Main8</Link>
                 <Link className="link" to="/main9">Main9</Link>
                 <Link className="link" to="/main10">Main10</Link> */}
