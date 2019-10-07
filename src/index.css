@@ -1,4 +1,9 @@
-.link {
-  background-color: yellow;
-  padding: 10px;
+
+.home {
+  min-height: 800px;
+  background: url('./assets/mountains.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: black;
 }

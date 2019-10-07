@@ -15,7 +15,7 @@ class Main5 extends Component {
             </Row>
             <Container fluid stretch className="p-0" style={{ marginTop: 500, backgroundImage: `url(${mountains2})`, height: 800, backgroundPosition: 'center', backgroundRepeat: 'no-repeat', backgroundSize: 'cover' }}>
                 <Row className="ml-5">
-                    <Col className="mt-5">
+                    <Col className="mt-5 p-2">
                         <h1 className="display-4">New Row Unit</h1>
                         <p className="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
                         <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
