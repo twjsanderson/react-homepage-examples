@@ -9,24 +9,28 @@ class Main7 extends Component {
     return (
         <section className="py-5 home">
             <Container fluid>
-                <Row>
-                    <Col className="justify-content-center">
+                <Row className="m-2">
+                    <Col>
                         <h1>Main Title</h1>
                         <h5>This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</h5>
                     </Col>
                 </Row>
-                <Row>
-                    <Col>
-                        <Button className="btn btn-primary btn-lg m-2">
-                            Learn More
-                        </Button>
-                        <Button className="btn btn-primary btn-lg m-2">
-                            Courses
-                        </Button>
-                    </Col>
-                </Row>
+                <Container>
+                    <Row>
+                        <Col sm>
+                            <Button className="btn btn-primary btn-lg w-75 mb-2">
+                                Learn More
+                            </Button>
+                        </Col>
+                        <Col sm>
+                            <Button className="btn btn-primary btn-lg w-75 mb-2">
+                                Courses
+                            </Button>
+                        </Col>
+                    </Row>
+                </Container>
             </Container>
-            <Container className="py-5">
+            <Container className="py-3">
                 <Carousel>
                     <Carousel.Item>
                         <Image
