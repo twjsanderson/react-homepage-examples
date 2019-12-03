@@ -3,7 +3,7 @@ import Nav1 from './NavBar';
 import { Container, Row, Col } from 'react-bootstrap';
 import mountains from '../assets/mountains.jpg';
 
-// 2 rows sharing whole container 50/50 Col md={4} controls width of content
+// 2 rows sharing whole container 50/50 Col md={4} controls width of content, Row has to have height
 
 const Main1 = () => {
   return (

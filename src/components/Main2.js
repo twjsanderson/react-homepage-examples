@@ -3,7 +3,7 @@ import Nav1 from './NavBar';
 import { Container, Row, Col } from 'react-bootstrap';
 import mountains from '../assets/mountains.jpg';
 
-// Single Row and Col as 1 unit
+// Single Row and Col as 1 unit, md={4} controls content width
 
 const Main2 = () => {
   return (
