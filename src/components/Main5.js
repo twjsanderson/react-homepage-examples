@@ -19,13 +19,17 @@ const Main5 = () => {
       </Container>
       <Container fluid style={{ backgroundImage: `url(${mountains2})`, backgroundPosition: "center", backgroundSize: "cover", height: 500 }}> 
         <Row className="h-75 justify-content-center align-items-center">
-          <Col md={4} className="text-center">
-            <h2>Subtitle</h2>
+          <Col md={4}>
+            <h2 className="text-center">Subtitle</h2>
             <p>
-                fermentum iaculis eu non diam phasellus vestibulum lorem sed risus ultricies 
+                Fermentum iaculis eu non diam phasellus vestibulum lorem sed risus ultricies 
                 tristique nulla aliquet enim tortor at auctor urna nunc id cursus metus aliquam 
                 eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci a 
                 scelerisque purus semper eget duis
+            </p>
+            <p>
+                Nunc id cursus metus aliquam eleifend mi in nulla posuere sollicitudin aliquam 
+                ultrices sagittis orci a scelerisque purus semper eget duis
             </p>
           </Col>
         </Row>
